@@ -1,0 +1,7 @@
+ReconciliationDate,TotalExternalDisputes,TotalInternalDisputes,MatchedDisputes,TotalDiscrepancies
+2025-04-07 11:31:33,3,3,2,3
+
+DisputeId,DiscrepancyType,Severity,Description
+case_003,MissingInInternal,High,"Dispute case_003 found in external report but missing in interanl"
+case_004,MissingInExternal,Medium,"Disputecase_004 fount in internal system but missing in external"
+case_002,StatusMismatch,High,"Status mismatch for dispute case_002: External=Won, Internal=Lost"
